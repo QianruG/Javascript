@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <h1> My First Button </h1>
+    <div id="buttonContainer" class="container">
+        <button id="myButton" onclick = "myFunction()">My Name Is:</button>
+    </div>
+    <script>
+        let button = document.getElementById('myButton');
+            
+        console.log(button);
+
+        function myFunction(){
+            document.body.style.backgroundColor = 'green';
+            if(button.innerHTML != 'Qianru Guo'){
+                button.innerHTML = 'Qianru Guo';
+                button.style.backgroundColor = 'blue';
+
+
+                }else{
+                    button.innerHTML = 'My name is:';
+                    button.style.backgroundColor = 'green';
+                }
+        }
+
+        function areaOfSquare(a,b){
+            c = a * b;
+            return c;
+        }
+        console.log(areaOfSquare(4,4))
+
+        function areaOfRectangle(a,b){
+            c = a * b
+            return c;
+        }
+        console.log(areaOfRectangle(4,5))
+
+        function areaOfCircle(a){
+            b = 3.1415 * a 
+            c = b * b
+            return c;
+        }
+        console.log(areaOfCircle(2))
+    </script>
+
+</body>
+
+</html>

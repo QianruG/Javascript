@@ -1,0 +1,13 @@
+#buttonContainer {
+    href = "css/style.css"
+}
+.container{
+    text-align: center;
+}
+
+#myButton{
+    background-color: rgb(76, 40, 184);
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    border-radius: 60px;
+}
